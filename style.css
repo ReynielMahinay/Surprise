@@ -265,7 +265,7 @@ h1 {
   margin-left: 7px;
   left: 0;
   top: 0;
-  width: 350px; /* Full width */
+  width: 345px; /* Full width */
   height: auto; /* Full height */
   overflow: auto; /* Enable scroll if needed */
 }
@@ -276,8 +276,11 @@ h1 {
   background-image: url("bg.png"); /* Specify the URL of your image */
   background-size: cover; /* Scale the background image to cover the entire element */
   background-position: center; /* Center the background image */
-  padding: 20px;
-  width: 310px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 305px;
   z-index: 1;
 }
 
