@@ -3,7 +3,6 @@ html {
   height: 200vh;
   background: radial-gradient(ellipse at center, #dbb800 0%, #688acc 50%);
   cursor: pointer;
-  overflow: hidden;
 }
 
 body {
