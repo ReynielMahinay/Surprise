@@ -69,6 +69,11 @@ body {
   }
 }
 
+#myBtn {
+  width: 100px;
+  height: 75px;
+}
+
 h1 {
   text-align: center;
   color: white;
@@ -79,6 +84,7 @@ h1 {
   top: 0vh;
   transform: translate(0, 100vh);
   animation: move 1s 2.5s forwards;
+  z-index: 100;
 }
 
 @keyframes move {
