@@ -7,7 +7,6 @@ html {
 
 body {
   height: 100vh;
-
   border-bottom: 10vh #339545 solid;
   box-sizing: border-box;
   position: relative;
@@ -70,7 +69,6 @@ h1 {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 40px;
   position: absolute;
-  z-index: 1;
   width: 100%;
   top: 0vh;
   transform: translate(0, 100vh);
@@ -85,7 +83,13 @@ h1 {
     transform: translate(0vh, 0);
   }
 }
+.modal-letter {
+  z-index: 100; /* Increase the z-index of the modal */
+  position: absolute;
+}
+
 .sunflwr {
+  z-index: 1; /* Increase the z-index of the sunflower */
   width: 80vmin;
   height: 80vmin;
   position: absolute;
@@ -93,6 +97,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, 0%);
 }
+
 .sunflwr__leaf--left,
 .sunflwr__leaf--right {
   width: 0%;
@@ -139,6 +144,10 @@ h1 {
     height: 60%;
   }
 }
+
+#myBtn {
+  z-index: 3;
+}
 .sunflwr__center {
   border-radius: 50%;
   background-color: #3c1f03;
@@ -146,7 +155,7 @@ h1 {
   position: absolute;
   left: 50%;
   top: 40%;
-  z-index: 2;
+  z-index: 1;
   animation: sunflwr__center 1s 1s forwards;
   display: flex;
   justify-content: center;
@@ -246,3 +255,47 @@ h1 {
     border: 2px solid black;
   }
 } /*# sourceMappingURL=style.css.map */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  margin-left: 7px;
+  left: 0;
+  top: 0;
+  width: 360px; /* Full width */
+  height: auto; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-image: url("bg.png"); /* Specify the URL of your image */
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-position: center; /* Center the background image */
+  padding: 20px;
+  width: 320px;
+  z-index: 1;
+}
+
+/* The Close Button */
+.close {
+  position: relative;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.close:hover,
+.close:focus {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 1;
+}
