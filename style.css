@@ -10,7 +10,7 @@ body {
   border-bottom: 10vh #339545 solid;
   box-sizing: border-box;
   position: relative;
-
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
 }
