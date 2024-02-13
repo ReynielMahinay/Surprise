@@ -265,7 +265,7 @@ h1 {
   margin-left: 7px;
   left: 0;
   top: 0;
-  width: 360px; /* Full width */
+  width: 350px; /* Full width */
   height: auto; /* Full height */
   overflow: auto; /* Enable scroll if needed */
 }
@@ -277,7 +277,7 @@ h1 {
   background-size: cover; /* Scale the background image to cover the entire element */
   background-position: center; /* Center the background image */
   padding: 20px;
-  width: 320px;
+  width: 310px;
   z-index: 1;
 }
 
