@@ -41,7 +41,7 @@ body {
     height: 600px;
     width: 360px;
     position: relative;
-    top: 700px;
+    top: 750px;
     left: 0px;
     z-index: 1;
   }
@@ -49,7 +49,7 @@ body {
   #msg {
     z-index: 2;
     position: relative;
-    top: 155px;
+    top: 200px;
     left: 5px;
     padding-left: 10px;
     padding-right: 20px;
