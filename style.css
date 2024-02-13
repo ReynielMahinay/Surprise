@@ -35,6 +35,7 @@ body {
 
   .letter {
     display: block;
+    position: relative;
   }
 
   #bg {
